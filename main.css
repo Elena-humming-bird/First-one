@@ -1,0 +1,99 @@
+h1 {
+  color: black;
+  -webkit-text-stroke: .06em rgba(0,0,0,.5);
+  text-shadow: .07em 0 black;
+}
+h1 {
+  color: pink ; }
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  padding: 0 80px;
+  margin-left: 100px;
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 1.2em;
+  position: relative;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:#e08f1d;
+}
+
+  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+  width: 300px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #3365a3;
+}
+button {
+    background: pink; /* розовый цвет фона */ 
+    color: black; /* Белые буквы */ 
+    font-size: 9pt; /* Размер шрифта в пунктах */
+   }
+h1 {
+padding: 0;
+margin-left: 550px;
+}
+h2 {
+padding: 0;
+margin-left: 400px;
+}
+p {
+padding: 0;
+margin-left: 400px;
+}
+a {
+padding: 0;
+margin-left: 400px;
+}
+button {
+padding: 0;
+margin-left: 650px;
+}
+img {
+padding: 0;
+margin-left: 600px;
+}
+h2 {
+  color: black;
+  -webkit-text-stroke: .06em rgba(0,0,0,.5);
+  text-shadow: .07em 0 black;
+}
+h2 {
+  color: pink ; }
